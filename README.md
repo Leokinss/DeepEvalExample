@@ -30,17 +30,8 @@ A small example project demonstrating [DeepEval](https://github.com/confident-ai
    ```
 
 ## Running
-
-Run the standalone example script:
-
 ```powershell
-python example.py
-```
-
-Or run the pytest-style evaluation:
-
-```powershell
-deepeval test run test_example.py
+deepeval test run tests/test_example.py
 ```
 
 ## Project layout
