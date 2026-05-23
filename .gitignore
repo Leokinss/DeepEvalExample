@@ -1,0 +1,35 @@
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# DeepEval
+.deepeval/
+.deepeval-cache/
+.deepeval_telemetry.txt
+temp_test_run_data.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
